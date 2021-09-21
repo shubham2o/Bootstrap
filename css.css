@@ -12,10 +12,24 @@
          background-color: lightcoral;
  }
 
+
  .div4 {
          color: tomato;
+         font-weight: bolder;
  }
+
 
  .div5 {
          color: lightgreen;
+         font-weight: bolder;
+ }
+
+
+ .div6 {
+         background-color: tomato;
+ }
+
+
+ .div7 {
+         background-color:lightgreen;
  }
