@@ -299,10 +299,12 @@
                                                  <label for="email" class="control-label">Email:</label>
                                                  <input type="text" id="email" placeholder="Enter email" name="Email" class="form-control">
                                          </div>
+                                        
                                          <div class="form-group">
                                                  <label for="pass" class="control-label">Password:</label>
-                                                 <input type="text" id="pass" placeholder="Enter password" name="Password" class="form-control">
+                                                 <input type="password" id="pass" placeholder="Enter password" name="Password" class="form-control">
                                          </div>
+                                        
                                          <div class="checkbox">
                                                  <input type="checkbox" name="remember">Remember me
                                          </div>
@@ -318,19 +320,67 @@
                          <br>
 
                          <h1>Horizontal form with static control</h1>
-                         <form action="" class="form-horizontal">
+                         <div class="container">
+                                 <form action="" class="form-horizontal">
 
-                                 <div class="form-group">
-                                         <label class="control-label">Email:</label>
-                                         <p class="form-control-static">someone@example.com</p>
+                                         <div class="form-group">
+                                                 <label class="control-label">Email:</label>
+                                                 <p class="form-control-static">someone@example.com</p>
+                                         </div>
+                                
+                                         <div class="form-group">
+                                                 <label for="pass" class="control-label">Password:</label>
+                                                 <input type="password" id="pass" placeholder="Enter password" class="form-control" name="password">
+                                         </div>
+                                         <button type="button" class="btn btn-default">Submit</button>
+                                        
+                                 </form>
+                         </div>
+
+                         <br>
+                         <br>
+                         <br>
+
+                         <h1>Input Groups</h1>
+                         <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
+                         <p>The .input-group-addon class attaches an icon or help text next to the input field.</p>
+
+                         <form action="">
+
+                                 <div class="input-group">
+                                         <div class="input-group-addon">
+                                                 <label for="email" class="control-label">
+                                                         <i class="glyphicon glyphicon-user"></i>
+                                                 </label>
+                                         </div>
+                                         <input type="text" class="form-control" id="email" placeholder="Email" name="email">
                                  </div>
-                                 <div class="form-group">
-                                         <label for="pass" class="control-label">Password:</label>
-                                         <input type="password" id="pass" placeholder="Enter password" class="form-control" name="password">
+                                
+                                 <div class="input-group">
+                                         <div class="input-group-addon">
+                                                 <label for="pass" class="control-label">
+                                                         <i class="glyphicon glyphicon-lock"></i>
+                                                 </label>
+                                         </div>
+                                         <input type="password" class="form-control" id="pass" placeholder="Password" name="Password">
                                  </div>
-                                 <button type="button" class="btn btn-default">Submit</button>
+                                
+                                 <br>
+
+                                 <div class="input-group">
+                                         <div class="input-group-addon">Text
+                                                 <label for="text"></label>
+                                         </div>
+                                         <input type="text" class="form-control" id="text" placeholder="Additional Info" name="additional info">
+                                 </div>
                                 
                          </form>
+
+                         <br>
+                         <br>
+                         <br>
+
+                         
                  </div>
          </body>
  </html>
