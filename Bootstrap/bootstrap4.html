@@ -376,5 +376,188 @@
                      </li>
                  </ul>
              </div>
+
+
+             <br>
+             <br>
+
+
+             <div class="container">
+                 <h1>Card titles, text, and links</h1>
+                 <p>Use .card-title to add card titles to any heading element. The .card-text class is used to 
+                     remove bottom margins for a p element if it is the last child (or the only one) in card-body.
+                     The .card-link class adds a blue color to any link, and a hover effect.
+                 </p>
+                 <div class="card">
+                     <div class="card-body">
+                         <h3 class="card-title">Card title</h3>
+                         <p class="card-text">Some example text. Some example text.</p>
+                         <a href="#" class="card-link">Card Link</a>
+                         <a href="#" class="card-link">Another Link</a>
+                     </div>
+                 </div>
+             </div>
+
+
+             <br>
+             <br>
+
+
+             <div class="container">
+                 <h1>Card Image</h1>
+                 <p>Image at the top (card-img-top):</p>
+                 <div class="card" style="width: 400px;">
+                     <img src="/images/img_avatar1.png" alt="" class="card-img-top" style="width: 100%;">
+                     <div class="card-body">
+                         <h3 class="card-text">John Doe</h3>
+                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer.</p>
+                         <a class="btn btn-primary" href="#">See Profile</a>
+                     </div>
+                 </div>
+                 <br>
+                 <br>
+                 <p>Image at the bottom (card-img-bottom):</p>
+                 <div class="card" style="width: 400px;">
+                     <div class="card-body">
+                         <h3 class="card-title">Jane Doe</h3>
+                         <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer.</p>
+                         <a href="#" class="btn btn-primary">See Profile</a>
+                     </div>
+                     <img src="/images/img_avatar3.png" alt="" style="width: 100%;" class="card-img-bottom">
+                 </div>
+                 <br>
+                 <br>
+                 <h3>Stretched Link in Card</h3>
+                 <p>Add the .stretched-link class to a link inside the .card, and it will make the whole card clickable 
+                     (the card will act as a link):
+                 </p>
+                 <div class="card" style="width: 400px;">
+                     <img src="/images/img_avatar4.png" alt="" width="100%" class="card-img-top">
+                     <div class="card-body">
+                         <h3 class="card-title">Megan Fox</h3>
+                         <p class="card-text">Some example text some example text. Megan Fox is an architect and engineer.</p>
+                         <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+                     </div>
+                 </div>
+                 <br>
+                 <br>
+                 <h3>Card Overlay</h3>
+                 <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+                 <div class="card img-fluid img-fluid" style="width: 400px;">
+                     <img src="/images/img_avatar2.png" alt="" width="100%" class="card-img-top">
+                     <div class="card-img-overlay">
+                         <h3 class="card-title">Jack Nicholson</h3>
+                         <p class="card-text">Some example text some example text. Megan Fox is an architect and engineer.</p>
+                         <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+                     </div>
+                 </div>
+                 <br>
+                 <br>
+                 <h1>Card Columns</h1>
+                 <p>The .card-columns class creates a masonry-liked grid of cards. The layout will automatically adjust as you 
+                     insert more cards.</p>
+                 <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+                 <div class="card-columns">
+                     <div class="card bg-primary">
+                         <div class="card-body text-center">
+                             <p class="card-text">Some text inside the first card.</p>
+                         </div>
+                     </div>
+                     <br>
+                     <div class="card bg-warning">
+                         <div class="card-body text-center">
+                             <p class="card-text">Some text inside the second card.</p>
+                         </div>
+                     </div>
+                     <br>
+                     <div class="card bg-success">
+                         <div class="card-body text-center">
+                             <div class="card-text">Some text inside the third card.</div>
+                         </div>
+                     </div>
+                     <br>
+                     <div class="card bg-danger">
+                         <div class="card-body text-center">
+                             <div class="card-text">Some text inside the third card.</div>
+                         </div>
+                     </div>
+                     <br>
+                     <div class="card bg-white">
+                         <div class="card-body text-center">
+                             <div class="card-text">Some text inside the third card.</div>
+                         </div>
+                     </div>
+                     <br>
+                     <div class="card bg-info">
+                         <div class="card-body text-center">
+                             <div class="card-text">Some text inside the third card.</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+            
+            
+             <br>
+             <br>
+
+
+             <div class="container">
+                 <div class="card-deck">
+                     <div class="card bg-primary p-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the first card</p>
+                             <p class="card-text text-white">Some more text to increase the height.</p>
+                             <p class="card-text text-white">Some more text to increase the height.</p>
+                         </div>
+                     </div>
+                     <div class="card bg-success text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                     <div class="card bg-danger text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                     <div class="card bg-warning text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+             <br>
+             <br>
+
+
+             <div class="container">
+                 <div class="card-group">
+                     <div class="card bg-primary p-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the first card</p>
+                             <p class="card-text text-white">Some more text to increase the height.</p>
+                             <p class="card-text text-white">Some more text to increase the height.</p>
+                         </div>
+                     </div>
+                     <div class="card bg-success text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                     <div class="card bg-danger text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                     <div class="card bg-warning text-center pt-5 pb-5">
+                         <div class="card-body">
+                             <p class="card-text text-white">Some text inside the second deck</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
          </body>
  </html>
